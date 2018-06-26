@@ -45,7 +45,6 @@ int main(){
 	while(attempts--){
 	//Initializing with an arbitrary source.
 		route = generate();
-
 		route_c = cost(route);
 
 		double T = 100, it;
